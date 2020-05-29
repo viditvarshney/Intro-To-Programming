@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="A Project for Udacity">
+
+  <title>Pixel Art Maker</title>
+  <link rel="shortcut icon" href="favcon.png" type="image/x-icon">
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  
+</head>
+
+<body>
+  <h1>Lab: Pixel Art Maker</h1>
+
+  <h2>Choose Grid Size</h2>
+
+  <form id="sizePicker">
+    Grid Height:
+    <input type="number" id="height_in" name="height" min="1" value="1"> 
+    Grid Width:
+    <input type="number" id="width_in" name="width" min="1" value="1">
+    <input type="submit">
+  </form>
+
+  <h2>Pick A Color</h2>
+
+  <input type="color" id="colorPicker">
+
+  <h2>Design Canvas</h2>
+
+  <table id="pix_canvas"></table>
+
+  <script src="js/app.js"></script>
+</body>

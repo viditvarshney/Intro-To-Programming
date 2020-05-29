@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: bisque;
+  }
+  
+  h1 {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0.3em;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    margin: 1em 0 0.28em;
+  }
+  
+  h2:first-of-type {
+    margin-top: 0.55em;
+  }
+  
+  table, tr, td {
+    border: 1px solid red;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  tr {
+    height: 20px;
+  }
+  
+  td {
+    width: 20px;
+  }
+  
+  input[type=number] {
+    width: 6em;
+  }
+  
+  form {
+    font-family: 'Roboto', sans-serif;
+    
+  }
